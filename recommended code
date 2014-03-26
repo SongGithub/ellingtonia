@@ -1,0 +1,84 @@
+
+def get_context():
+    context = {
+        'clients': []
+    }
+
+    for client in os.listdir('docs'):
+        projects = []
+        for project in os.listdir('docs/%s' % client):
+            projects.append({
+                'client': client,
+                'project': project,
+                'url': '/docs/%s/%s' % (client, project)
+            })
+        context['clients'].append(projects)
+    return context
+
+
+
+
+{
+    
+    clients: [
+        {
+            'name': 'a'
+            'projects' : [
+                {'client': 'a', 'name': 'a', url: '/docs/a/a/'},
+                {'client': 'a', 'name': 'a', url: '/docs/a/b/'}
+            ]
+        },
+        {
+            'name': 'b'
+            'projects' : [
+                {'client': 'b', 'name': 'a', url: '/docs/a/a/'},
+                {'client': 'b', 'name': 'a', url: '/docs/a/b/'}
+            ]
+        }
+    ]
+
+}
+
+
+{% for client in clients %}
+    <h1>{{ client.name }}</h1>
+    <ul>
+        {% for project in client.projects %}
+            <li>
+            <a href="{{ project.url }}">
+                {{ project.client }} - {{ project.name }}
+            </a>
+            </li>
+        {% endfor %}
+    </ul>
+{%  endfor %}
+
+
+{'clients': 
+    [{'name': 'Choclatebox', 
+        'projects': 
+        [{'client': 'Choclatebox', 'name': 'sub_choclate2'}, 
+         {'client': 'Choclatebox', 'name': 'sub_choclate1'}]}, 
+
+
+     {'name': 'Labour', 
+        'projects': 
+        [{'client': 'Labour', 'name': 'sub-labour2'}, 
+         {'client': 'Labour', 'name': 'sub-labour1'}
+
+]}]}
+
+{'clients': 
+    [{'name': 'Choclatebox', 
+    'projects': 
+    [
+    {'url': '/home/songvm520/Workspaces/ellingtonia/docs_in_test/Choclateboxsub_choclate2/index.html', 
+     'client': 'Choclatebox', 
+     'name': 'sub_choclate2'}, 
+     
+     {'url': '/home/songvm520/Workspaces/ellingtonia/docs_in_test/Choclateboxsub_choclate1/index.html', 'client': 'Choclatebox', 'name': 'sub_choclate1'}]}, 
+
+     {'name': 'Labour', 'projects': [
+
+     {'url': '/home/songvm520/Workspaces/ellingtonia/docs_in_test/Laboursub-labour2/index.html', 'client': 'Labour', 'name': 'sub-labour2'}, 
+     {'url': '/home/songvm520/Workspaces/ellingtonia/docs_in_test/Laboursub-labour1/index.html', 'client': 'Labour', 'name': 'sub-labour1'}]}]}

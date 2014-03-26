@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"proj",
+				"projpath"
+			],
+			[
+				"cli",
+				"clients"
+			],
+			[
+				"tem",
+				"templateEnv"
+			],
+			[
+				"temp",
+				"templateLoader"
+			],
+			[
 				"dj",
 				"dj_database_url"
 			]
@@ -12,18 +28,26 @@
 	"buffers":
 	[
 		{
-			"file": "README.md",
+			"file": "app/dirfetcher.py",
 			"settings":
 			{
-				"buffer_size": 722,
+				"buffer_size": 1318,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "helloworld.py",
+			"file": "recommended code",
 			"settings":
 			{
-				"buffer_size": 357,
+				"buffer_size": 1189,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/example1.jinja",
+			"settings":
+			{
+				"buffer_size": 651,
 				"line_ending": "Unix"
 			}
 		}
@@ -52,6 +76,26 @@
 	},
 	"file_history":
 	[
+		"/home/songvm520/Workspaces/ellingtonia/templates/layout.html",
+		"/home/songvm520/Workspaces/ellingtonia/templates/template.html",
+		"/home/songvm520/Workspaces/ellingtonia/app/jinjaconf.py",
+		"/home/songvm520/Workspaces/ellingtonia/static/style.css",
+		"/home/songvm520/Workspaces/ellingtonia/outputs/output.html",
+		"/home/songvm520/Workspaces/ellingtonia/dirfetcher.py",
+		"/home/songvm520/Workspaces/ellingtonia/jinjaconf.py",
+		"/home/songvm520/Workspaces/ellingtonia/example1.jinja",
+		"/home/songvm520/Workspaces/ellingtonia/walk_depth.py",
+		"/home/songvm520/Workspaces/ellingtonia/.gitignore",
+		"/home/songvm520/Workspaces/ellingtonia/jinjaconf.pyc",
+		"/home/songvm520/Workspaces/ellingtonia/old code",
+		"/home/songvm520/Workspaces/ellingtonia/output1.html",
+		"/home/songvm520/Workspaces/ellingtonia/template.html",
+		"/home/songvm520/Workspaces/ellingtonia/levelwalk.py",
+		"/home/songvm520/Workspaces/ellingtonia/output.html",
+		"/home/songvm520/Workspaces/ellingtonia/README.md",
+		"/home/songvm520/Workspaces/ellingtonia/layout.html",
+		"/home/songvm520/Workspaces/ellingtonia/playflask.py",
+		"/home/songvm520/Workspaces/ellingtonia/helloworld.py",
 		"/Users/tim/Workplaces/2DoList/Vagrantfile",
 		"/Users/tim/Workplaces/2DoList/requirements.txt",
 		"/Users/tim/.bashrc",
@@ -93,54 +137,91 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "README.md",
+					"file": "app/dirfetcher.py",
 					"settings":
 					{
-						"buffer_size": 722,
+						"buffer_size": 1318,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								722,
-								722
+								999,
+								999
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
 				{
 					"buffer": 1,
-					"file": "helloworld.py",
+					"file": "recommended code",
 					"settings":
 					{
-						"buffer_size": 357,
+						"buffer_size": 1189,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								357,
-								357
+								875,
+								875
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/example1.jinja",
+					"settings":
+					{
+						"buffer_size": 651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								618,
+								618
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -168,11 +249,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -202,7 +290,7 @@
 		[
 			[
 				"",
-				"/Users/tim/Workplaces/pelicanblog/pelicanblog.sublime-project"
+				"/home/songvm520/Workspaces/2DoList/2DoList.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -211,6 +299,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 216.0,
 	"status_bar_visible": true
 }
