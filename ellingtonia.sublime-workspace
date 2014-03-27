@@ -4,12 +4,28 @@
 		"selected_items":
 		[
 			[
-				"proj",
-				"projpath"
+				"cli",
+				"client"
 			],
 			[
-				"cli",
-				"clients"
+				"client",
+				"client_name"
+			],
+			[
+				"jinj",
+				"jinja_messenger"
+			],
+			[
+				"projct",
+				"projects"
+			],
+			[
+				"c",
+				"context"
+			],
+			[
+				"proj",
+				"projpath"
 			],
 			[
 				"tem",
@@ -31,23 +47,15 @@
 			"file": "app/dirfetcher.py",
 			"settings":
 			{
-				"buffer_size": 1318,
+				"buffer_size": 1253,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "recommended code",
+			"file": "fabfile.py",
 			"settings":
 			{
-				"buffer_size": 1189,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/example1.jinja",
-			"settings":
-			{
-				"buffer_size": 651,
+				"buffer_size": 1218,
 				"line_ending": "Unix"
 			}
 		}
@@ -76,16 +84,30 @@
 	},
 	"file_history":
 	[
-		"/home/songvm520/Workspaces/ellingtonia/templates/layout.html",
-		"/home/songvm520/Workspaces/ellingtonia/templates/template.html",
+		"/home/songvm520/Workspaces/ellingtonia/setup.py",
+		"/home/songvm520/Workspaces/ellingtonia/fabconfig.py",
+		"/home/songvm520/Workspaces/ellingtonia/requirement.txt",
+		"/home/songvm520/Workspaces/ellingtonia/ellingtonia.sublime-project",
+		"/home/songvm520/Workspaces/ellingtonia/.gitignore",
+		"/home/songvm520/Workspaces/ellingtonia/templates/example1.jinja",
+		"/home/songvm520/Workspaces/ellingtonia/recommended code",
+		"/home/songvm520/Workspaces/ellingtonia/host_it.py",
+		"/home/songvm520/Workspaces/ellingtonia/templates/index.html",
+		"/home/songvm520/Workspaces/ellingtonia/templates/hello.html",
 		"/home/songvm520/Workspaces/ellingtonia/app/jinjaconf.py",
-		"/home/songvm520/Workspaces/ellingtonia/static/style.css",
+		"/home/songvm520/Workspaces/ellingtonia/app/host_it.py",
+		"/home/songvm520/Workspaces/ellingtonia/templates/layout.html",
+		"/home/songvm520/Workspaces/ellingtonia/templates/template_trial.html",
 		"/home/songvm520/Workspaces/ellingtonia/outputs/output.html",
+		"/home/songvm520/Workspaces/ellingtonia/templates/template_jinja.html",
+		"/home/songvm520/Workspaces/ellingtonia/old code/playflask.py",
+		"/home/songvm520/Workspaces/ellingtonia/app/__init__.py",
+		"/home/songvm520/Workspaces/ellingtonia/templates/template.html",
+		"/home/songvm520/Workspaces/ellingtonia/static/style.css",
 		"/home/songvm520/Workspaces/ellingtonia/dirfetcher.py",
 		"/home/songvm520/Workspaces/ellingtonia/jinjaconf.py",
 		"/home/songvm520/Workspaces/ellingtonia/example1.jinja",
 		"/home/songvm520/Workspaces/ellingtonia/walk_depth.py",
-		"/home/songvm520/Workspaces/ellingtonia/.gitignore",
 		"/home/songvm520/Workspaces/ellingtonia/jinjaconf.pyc",
 		"/home/songvm520/Workspaces/ellingtonia/old code",
 		"/home/songvm520/Workspaces/ellingtonia/output1.html",
@@ -137,7 +159,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -145,15 +167,15 @@
 					"file": "app/dirfetcher.py",
 					"settings":
 					{
-						"buffer_size": 1318,
+						"buffer_size": 1253,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								999,
-								999
+								784,
+								784
 							]
 						],
 						"settings":
@@ -167,61 +189,26 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "recommended code",
-					"settings":
-					{
-						"buffer_size": 1189,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								875,
-								875
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 204.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "templates/example1.jinja",
+					"buffer": 1,
+					"file": "fabfile.py",
 					"settings":
 					{
-						"buffer_size": 651,
+						"buffer_size": 1218,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								618,
-								618
+								699,
+								699
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -229,6 +216,11 @@
 					},
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -260,7 +252,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.597034503943,
 			1.0
 		],
 		"rows":
