@@ -34,10 +34,10 @@ def jinja_messenger():
     # def jinja_messenger(object, jinjafile_addr):
     templateLoader = jinja2.FileSystemLoader(searchpath="/")
     templateEnv = jinja2.Environment(loader=templateLoader)
-    TEMPLATE_FILE = "/home/songvm520/Workspaces/ellingtonia/templates/example1.jinja"
+    TEMPLATE_FILE = "/home/song/Workspaces/ellingtonia/templates/example1.jinja"
     template = templateEnv.get_template(TEMPLATE_FILE)
     templateVars = get_context(path)
-    f = open('/home/songvm520/Workspaces/ellingtonia/outputs/output.html', 'w')
+    f = open('/home/song/Workspaces/ellingtonia/outputs/output.html', 'w')
     f.write(template.render(templateVars))
     f.close()
     print get_context(path)
